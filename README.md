@@ -133,44 +133,7 @@ KANIMA is a comprehensive financial management platform that combines AI technol
 
 ---
 
-## 📁 Project Structure
 
-```
-KANIMA/
-├── src/
-│   ├── components/
-│   │   ├── Header.tsx                    # Navigation bar
-│   │   ├── Hero.tsx                      # Landing page
-│   │   ├── SmartBudgetAI.tsx            # Budget analysis
-│   │   ├── SmartExpenseTracker.tsx      # Expense tracking
-│   │   ├── SmartBusinessCalculator.tsx  # Business calculator
-│   │   ├── CreditScoreDoctor.tsx        # Credit analysis
-│   │   ├── CyberShield.tsx              # Fraud protection
-│   │   ├── LoanGuard.tsx                # Loan analyzer
-│   │   ├── PolicySenseAI.tsx            # Insurance analyzer
-│   │   ├── GovernmentBenefits.tsx       # Government schemes
-│   │   ├── SmartSavings.tsx             # Savings tracker
-│   │   ├── CareerInsightsAI.tsx         # Career guidance
-│   │   ├── FinancialEducation.tsx       # Learning modules
-│   │   ├── AdvancedCalculatorHub.tsx    # Calculator tools
-│   │   └── AIFinanceBot.tsx             # AI chatbot
-│   ├── data/
-│   │   ├── expenseData.ts               # Expense dummy data
-│   │   └── businessData.ts              # Business dummy data
-│   ├── utils/
-│   │   ├── groqApi.ts                   # Groq API integration
-│   │   └── educationGroq.ts             # Education AI
-│   ├── App.tsx                          # Main app component
-│   └── main.tsx                         # Entry point
-├── .env                                 # Environment variables
-├── .gitignore                           # Git ignore rules
-├── package.json                         # Dependencies
-├── tailwind.config.js                   # Tailwind configuration
-├── tsconfig.json                        # TypeScript config
-└── README.md                            # This file
-```
-
----
 
 ## 🚀 Getting Started
 
@@ -178,52 +141,7 @@ KANIMA/
 - Node.js (v16 or higher)
 - npm or yarn
 
-### Installation
 
-1. **Clone the repository**
-```bash
-git clone <repository-url>
-cd KANIMA
-```
-
-2. **Install dependencies**
-```bash
-npm install
-```
-
-3. **Set up environment variables**
-Create a `.env` file in the root directory:
-```env
-VITE_GROQ_API_KEY=your_groq_api_key_here
-```
-
-4. **Run development server**
-```bash
-npm run dev
-```
-
-5. **Build for production**
-```bash
-npm run build
-```
-
----
-
-## 🔐 Security
-
-- API keys stored in `.env` file (not committed to Git)
-- Environment variables accessed via `import.meta.env.VITE_*`
-- `.env` file included in `.gitignore`
-- No hardcoded credentials in source code
-
----
-
-## 📊 Data Management
-
-### Dummy Data
-- **Expense Tracker**: 30 days of realistic Indian expense scenarios
-- **Business Calculator**: 30 days of business transaction data
-- Data generated programmatically for testing and demonstration
 
 ### AI Integration
 - All AI features use Groq API with LLaMA 3.1-8b-instant model
@@ -244,17 +162,6 @@ npm run build
 - Learn (with Banking 101)
 - Calculators (with Business Calculator)
 
-### Bottom Row (8 items)
-- LoanGuard
-- PolicySense
-- My Benefits
-- Smart Savings
-- Invest Smart
-- Tax Planner
-- Retirement
-- AI Assistant
-
----
 
 ## 🌈 Key Highlights
 
@@ -271,36 +178,12 @@ npm run build
 
 ---
 
-## 📱 Responsive Design
-
-- Mobile-first approach
-- Tablet and desktop optimized
-- Touch-friendly interface
-- Adaptive layouts
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome! Please follow these steps:
-1. Fork the repository
-2. Create a feature branch
-3. Commit your changes
-4. Push to the branch
-5. Open a pull request
-
----
-
-## 📄 License
-
-This project is proprietary software. All rights reserved.
-
----
 
 ## 👨‍💻 Developer
 
-**SK WEBSITES**  
+** WEBSITE LINK**  
 Smart Finance Solutions for Everyone
+https://ai-finance-buddy2745.netlify.app/
 
 ---
 
